@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*FLEXBOX CLASSES*/
+/* Display Flex */
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Justify Content (horizontaal)*/
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+/* Align Items (verticaal) */
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Align Content */
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+/* Align Self */
+.align-self-auto {
+    align-self: auto;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-baseline {
+    align-self: baseline;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+/* Order */
+.order-first {
+    order: -1;
+}
+
+.order-last {
+    order: 13;
+}
+
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-6 {
+    order: 6;
+}
+
+.order-7 {
+    order: 7;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.order-9 {
+    order: 9;
+}
+
+.order-10 {
+    order: 10;
+}
+
+.order-11 {
+    order: 11;
+}
+
+.order-12 {
+    order: 12;
+}
+
+/* Grow and Shrink */
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+
+/*width classes*/
+
+/*styling*/
+.shadow-soft{
+    box-shadow:0px 10px 15px rgba(0,0,0,0.6);
+}
+
+/*uitlijning*/
+.text-center{
+    text-align:center;
+}
+
+/* EIGEN CSS */
+body{
+    font-family: "Inter", sans-serif;
+}
+.bggrey{
+    background-image: linear-gradient(to bottom, #f8f9fe, white);
+
+}
+/*header*/
+#headerwrap{
+    border-bottom:1px solid grey;
+}
+header,.hewwd{
+    width:1250px;
+    margin:0 auto;
+}
+.btn-brand{
+    color:#fff;background:#5b7cff;border:0;padding:12px 18px; border-radius:10px;cursor:pointer;
+}
+.navlink{
+    color:#0b1020; text-decoration:none;
+}
+/*hero*/
+.badge{
+    background:#f4f6ff; color:#2a3fa9; border:1px solid #e1e6ff; border-radius:999px; padding:6px 10px; font-size:12px;
+}
+h1{
+    font-size:60px;
+    font-weight:700;
+}
+span{
+    color:#5b7cff;
+}
+p{
+    color:#555;
+}
+.slogan{
+    font-size:20px;
+}
+.knop{
+    border: 2px solid transparent;
+    background: #5b7cff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.knop:hover{
+    border:2px solid #5b7cff;
+    color:#5b7cff;
+    background:#fff;
+}
+.gbutton{
+    border: 2px solid #6c757d;
+    background: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: #6c757d;
+    font-size: 20px;
+    font-weight: 500;
+}
+.gbutton:hover{
+    border:2px solid transparent;
+    color:#fff;
+    background:#6c757d;
+}
+/*section whatwedo*/
+article{
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 20px;
+}
+.wwdp{
+    padding:20px 0;
+}
+.wwdh3{
+    padding-top:20px;
+}
+/*section prijzen*/
+.prijzen:hover{
+    border:1px solid #5b7cff;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-out;
+    cursor:pointer;
+}

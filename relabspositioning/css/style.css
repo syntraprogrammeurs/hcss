@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+}
+#kader{
+    width:600px;
+    height: 600px;
+    border: 5px solid black;
+    position: relative;
+}
+.blok{
+    width:50px;
+    height:50px;
+    background:red;
+    position:absolute;
+}
+#blok1{
+    top:0px;
+    left:0px;
+}
+#blok2{
+    left:0px;
+    bottom:0px;
+}
+#blok3{
+    right:0px;
+    bottom:0px;
+}
+#blok4{
+    right:0px;
+    top:0px;
+    background:orange;
+    border:2px solid blue;
+    width:100px;
+    height:100px;
+}
